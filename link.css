@@ -102,11 +102,13 @@ footer p {
 @media (max-width: 768px) {
 
   body {
-    padding: 15px;
+    justify-content: flex-start;
+    padding-top: 30px;
   }
 
   .card {
-    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   h1 {
@@ -138,3 +140,4 @@ footer p {
     font-size: 11px;
   }
 }
+
